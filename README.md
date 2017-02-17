@@ -1,7 +1,7 @@
 ## Instalasi
     1. apt-get update
     2. apt-get install mysql-server
-    3. apt-get install php libapache2-mod-php php-mcrypt php-mysql  php-mbstring php-dom
+    3. apt-get install php libapache2-mod-php php-mcrypt php-mysql php-mbstring php-dom
     4. apt-get install git
     5. apt-get install curl
     
