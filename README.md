@@ -29,11 +29,12 @@
     
 ### 4. Install packages
     php composer.phar install
-### 5. restart apache
+
+### 5. `sudo a2enmod rewrite` to activate mod rewrite, then restart the apache
+
+### 6. chown -R www-data:www-data bootstrap/ storage/
+
+### 7. restart apache
     service apache2 restart
-
-### 7. `sudo a2enmod rewrite` to activate mod rewrite, then restart the apache
-
-### 8. chown -R www-data:www-data bootstrap/ storage/
-
-### 9. if your routes not found, repeat step 7 and 8.
+    
+### 8. if your routes not found, repeat step 6 and 7.
