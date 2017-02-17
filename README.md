@@ -8,7 +8,7 @@
 
 ## Step by step
 ### 1. clone repo to var/www/http/html
-### 2. set etc/apache/sites-enable
+### 2. set etc/apache2/sites-enable
 ```
 <VirtualHost *:80>
     ServerName coba.demo.example.com  //ip
