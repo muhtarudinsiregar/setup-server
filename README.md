@@ -32,7 +32,8 @@
 
 ### 5. `sudo a2enmod rewrite` to activate mod rewrite, then restart the apache
 
-### 6. chown -R www-data:www-data bootstrap/ storage/
+### 6. in your laravel directory run command 
+    chown -R www-data:www-data bootstrap/ storage/
 
 ### 7. restart apache
     service apache2 restart
